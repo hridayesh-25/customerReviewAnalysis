@@ -1,0 +1,35 @@
+[
+  {
+    "Model":     "LSTM",
+    "Accuracy":  0.9132,
+    "Precision": 0.9398,
+    "Recall":    0.8830,
+    "F1 Score":  0.9105,
+    "CM_TN":     18869,
+    "CM_FP":     1131,
+    "CM_FN":     2341,
+    "CM_TP":     17659
+  },
+  {
+    "Model":     "BiLSTM",
+    "Accuracy":  0.9206,
+    "Precision": 0.9187,
+    "Recall":    0.9229,
+    "F1 Score":  0.9208,
+    "CM_TN":     18366,
+    "CM_FP":     1634,
+    "CM_FN":     1542,
+    "CM_TP":     18458
+  },
+  {
+    "Model":     "CNN",
+    "Accuracy":  0.9180,
+    "Precision": 0.9237,
+    "Recall":    0.9114,
+    "F1 Score":  0.9175,
+    "CM_TN":     18494,
+    "CM_FP":     1506,
+    "CM_FN":     1773,
+    "CM_TP":     18227
+  }
+]
